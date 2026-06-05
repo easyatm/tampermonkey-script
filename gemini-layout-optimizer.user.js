@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gemini 智能布局优化 (靠左+里层表格相对背景色版)
 // @namespace    https://github.com/easyatm/tampermonkey-script
-// @version      0.26060501
+// @version      0.26060502
 // @description  安全靠左，外层去限制，内层 table 智能适配深浅相对背景色
 // @author       easyatm
 // @match        https://gemini.google.com/*
@@ -15,7 +15,7 @@
     'use strict';
 
     // ================= 核心尺寸控制 =================
-    const MAX_WIDTH = '1500px';     // 聊天框及表格的最大宽度
+    const MAX_WIDTH = '1440px';     // 聊天框及表格的最大宽度
     const LEFT_MARGIN = '24px';     // 聊天框距离左侧边栏的呼吸间距
     // ================================================
 
